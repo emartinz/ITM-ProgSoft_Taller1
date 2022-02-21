@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Taller1.Product" Collapsed="true">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAgAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.FixedPriceProduct" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>FixedPriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.VariablePriceProduct" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAQgAAAAAA=</HashCode>
+      <FileName>VariablePriceProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.ComposedProduct" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAoAAAAAAAAQ=</HashCode>
+      <FileName>ComposedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1.Invoice" Collapsed="true">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAIAIAAAAAAAAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

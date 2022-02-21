@@ -8,9 +8,11 @@ namespace Taller1
 {
     internal class ComposedProduct : Product
     {
+        private List<Product> _products = new();
+
         public float Discount { get; set; }
 
-        public List<Product> Products { get; set; }
+        public List<Product> Products { get => _products; set => _products = value; }
 
         public override decimal GetValueToPay()
         {
@@ -27,7 +29,7 @@ namespace Taller1
             String strProducts = string.Join(", ", Products.Select(P => P.Description));
 
             return $"{ base.ToString()}" +
-                $"\n{$" ",7}Products...: {$"{strProducts}", 50}" +
+                $"\n{$" ",7}Products...: {$"{strProducts}",50}" +
                 $"\n{$" ",7}Discount...: {$"{Discount:P2}",15}" +
                 $"\n{$" ",7}Value......: {$"{GetValueToPay():C2}",14}";
         }

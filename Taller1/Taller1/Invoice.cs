@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Taller1
 {
-    internal class Invoice
+    public class Invoice
     {
         private List<Product> _products = new();
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Taller1
 {
-    internal class ComposedProduct : Product
+    public class ComposedProduct : Product
     {
         private List<Product> _products = new();
 

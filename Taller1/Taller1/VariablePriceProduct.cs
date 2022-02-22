@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Taller1
 {
-    internal class VariablePriceProduct:Product
+    public class VariablePriceProduct:Product
     {
         public String Measurement { get; set; }
         public float Quantity { get; set; }
